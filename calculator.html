@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="calculator.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+<!--HERE WE ENTER THE BODY DIV CONTAINER-->
+    <div class="containerofContainer">
+<!--HERE WE ENTER THE SCREEN & KEYS DIV CONTAINER-->
+      <div class="container">
+<!--HERE WE ENTER THE SCREEN DIV CONTAINER-->
+        <div id="calcScreenDiv" class="bg-dark">
+          <input type="text" class="calcScreen" placeholder="Enter an expression">
+          
+        </div>
+<!--HERE WE ENTER THE BUTTONS DIV CONTAINER-->
+        <div  class=" calcKeysContainer bg-secondary">
+            <div class="operatorButtonclass">
+              <div class="clearButtonclass operatorButtonclass">
+                <!-- <button type="button" id="clearbtn" class="btn calcButtons clearButton" onclick="alert('hey You!')" >c</button> -->
+                <button type="button" id="clearbtn" class="btn calcButtons clearButton">c</button>
+              </div>
+              <div class="equaltoButtonclass operatorButtonclass">
+                <button type="button" id="equalbtn" class="btn calcButtons equaltoButton" style="background-color: lightskyblue; padding:8px 25px ;">&larr;</button>
+              </div>
+              <div class="equaltoButtonclass operatorButtonclass">
+                <button type="button" id="equalbtn" class="btn calcButtons equaltoButton">=</button>
+              </div>
+              <div class="operatorButtonclass">
+                <button type="button" id="divisionbtn" class="btn calcButtons operatorButton">/</button>
+              </div>
+              
+             
+              
+              <div class="operatorButtonclass">
+                <button type="button" id="ninebtn" class="btn calcButtons operandButton">9</button>
+              </div>
+              <div class="operatorButtonclass">
+                <button type="button" id="eightbtn" class="btn calcButtons operandButton">8</button>
+              </div>
+              <div class="operatorButtonclass">
+                <button type="button" id="sevenbtn" class="btn calcButtons operandButton">7</button>
+              </div>
+              <div class="operatorButtonclass">
+                <button type="button" id="multiplicationbtn" class=" btn calcButtons operatorButton">*</button>
+              </div>
+              <div class="operatorButtonclass">
+                <button  type="button" id="sixbtn" class="btn calcButtons operandButton">6</button>
+              </div>
+              <div class="operatorButtonclass">
+                <button type="button" id="fivebtn" class="btn calcButtons operandButton">5</button>
+              </div>
+              <div class="operatorButtonclass">
+                <button type="button" id="fourbtn" class="btn calcButtons operandButton">4</button>
+              </div>
+              <div class="operatorButtonclass">
+                <button   id="additionbtn" class=" btn calcButtons operatorButton" style="padding: 0 28px;">+</button>
+              </div>
+              <div class="operatorButtonclass">
+                <button type="button" id="threebtn" class="btn calcButtons operandButton">3</button>
+              </div>
+              <div class="operatorButtonclass">
+                <button type="button" id="twobtn" class="btn calcButtons operandButton">2</button>
+              </div>
+              <div class="operatorButtonclass">
+                <button type="button" id="onebtn" class="btn calcButtons operandButton">1</button>
+              </div>
+              <div class="operatorButtonclass">
+                <button type="button" id="subtractionbtn" class="btn calcButtons operatorButton">-</button>
+              </div>
+              <div class="operatorButtonclass">
+                <button type="button" id="zerobtn" class="btn calcButtons operandButton">0</button>
+              </div>
+              <div class="periodButtonclass operatorButtonclass">
+                <button type="button" id="periodbtn" class="btn calcButtons operandButton">(</button>
+              </div>
+              <div class="equaltoButtonclass operatorButtonclass">
+                <button type="button" id="equalbtn" class="btn calcButtons operandButton">)</button>
+              </div>
+              <div class="periodButtonclass operatorButtonclass">
+                <button type="button" id="periodbtn" class="btn calcButtons periodButton">.</button>
+              </div>
+             
+              
+              
+              
+              
+              
+            </div>
+       
+      </div>
+
+<!--HERE WE ENTER THE ACKNOWLEDGEMENTS DIV CONTAINER-->
+      <div class="acknowledgementsContainer">
+        <p class="acknowledgements heading-1" style="color: whitesmoke;">@MIRA calculator</p>
+      </div>
+    </div>
+<!--HERE WE IMPORT THE JS FILE-->
+    <script defer src="calculator.js"></script>
+  </body>
+</html>

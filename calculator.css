@@ -1,0 +1,100 @@
+body{
+    background-color: rgb(16, 15, 15);
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(https://media.istockphoto.com/id/1294603953/vector/abstract-black-stripes-diagonal-background.jpg?s=612x612&w=0&k=20&c=nQZHTk-o97cNVqWnUe8BJg0A5jQG0tqylquzbt9YtcQ=);
+
+}
+.containerofContainer{
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: rgb(5, 5, 5);
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    overflow: none;
+    border: 1px solid wheat;
+    border-radius: 10px;
+    box-shadow: 20px ;
+}
+
+#calcScreenDiv{
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: right;
+    align-content: center;
+    padding: 1px;
+}
+.calcScreen{
+    text-align: end;
+    font-size: 1.5rem;
+    width: 96%;
+    background-color: black;
+    height: 100%;
+    border: none;
+    padding: 2px;
+    margin: 2px;
+    color: whitesmoke;
+    padding: 10px;
+
+    
+}
+
+
+.operatorButtonclass{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    overflow: hidden;
+    justify-content: space-between;
+    row-gap: 10px;
+    padding: 5px;
+    
+    
+}
+.calcButtons{
+    font-size: 20px;
+    margin: px;
+    padding: 8px 30px;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+button:hover{
+    box-shadow: 10px;
+    background-color: black;
+    color: bisque;
+    transition: 0.5s ease-in-out;
+    border: 1px solid wheat;
+}
+.operatorButton{
+    background-color: orange;
+    
+}
+.operandButton{
+    background-color: bisque;
+}
+
+.periodButton{
+    background-color: bisque;
+}
+.equaltoButton{
+    background: green;
+}
+.clearButton{
+    background-color: red;
+}
+.acknowledgementsContainer{
+    position: relative;
+}
+.acknowledgements{
+    text-align: center;
+}
+
